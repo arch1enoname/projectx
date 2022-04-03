@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a651bba-0763-4c73-8378-5eb79415c7e4" name="Changes" comment="присоединяйтесь добавил">
-      <change afterPath="$PROJECT_DIR$/movement/movement_img/BackGroundImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movement/movement_img/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movement/movement_img/Logo__1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movement/movement_img/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movement/movement_img/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movement/movement_img/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movement/movement_img/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movement/movement_img/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movement/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movement/movement.html" beforeDir="false" afterPath="$PROJECT_DIR$/movement/movement.html" afterDir="false" />
-    </list>
+    <list default="true" id="4a651bba-0763-4c73-8378-5eb79415c7e4" name="Changes" comment="присоединяйтесь добавил" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +65,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648970030277</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="присоединяйтесь добавил">
+      <created>1648976438303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648976438303</updated>
+    </task>
+    <task id="LOCAL-00006" summary="присоединяйтесь добавил">
+      <created>1648982035198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648982035198</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,7 +87,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
