@@ -4,7 +4,8 @@
 
 body {
     margin: 0;
-    background-image: url(index__img/BackGroundImage.png);
+    /* background-color: #A253F0; */
+    background-image: url(index__img/BackGroundImage_1.png);
     background-repeat: repeat;
     background-position: center;
     width: 100%; min-height: 900px;

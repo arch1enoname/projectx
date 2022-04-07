@@ -13,7 +13,9 @@
 <body>
     <div class="container">
         <div class="menu">
-            <img class="logo" src="index__img/Logo__1.PNG"> 
+            <a href="index.html">
+                <img class="logo" src="index__img/Logo__1.PNG">
+            </a>
             <div class="ct"></div>
             <div class="nav">
                 <a href="">Aim</a>
@@ -31,11 +33,13 @@
         <div class="text_btm">
             в киберспорт?
         </div>
-        <a href="#" target="_blank" class="btn">
-            <div class="btn_inside">
+        <a href="#" target="_blank" class="btn" id="btn">
+            <div class="btn_inside" onmouseover="HoverOnBtn(event)" onmouseout="HoverOffBtn(event)" >
                 Присоединяйся
             </div>
         </a>
     </div>
+    <script type="text/javascript" src="script.js">
+    </script>
 </body>
 </html>
