@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a651bba-0763-4c73-8378-5eb79415c7e4" name="Changes" comment="добавил">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/index__img/BackGroundImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/index/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movement/movement.html" beforeDir="false" afterPath="$PROJECT_DIR$/movement/movement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movement/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/movement/style.css" afterDir="false" />
+    <list default="true" id="4a651bba-0763-4c73-8378-5eb79415c7e4" name="Changes" comment="last">
+      <change afterPath="$PROJECT_DIR$/maps/Images/BackGroundImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Images/Logo (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Images/LogoTsifrovoiVeter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Images/RECOIL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Images/YPRAC-AIM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Images/aim-botz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Images/guide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/Images/guide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maps/style-courses.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/.idea/maps.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +47,13 @@
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\веб\projectx-main" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -106,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649052241545</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="all">
+      <created>1649750149129</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649750149129</updated>
+    </task>
+    <task id="LOCAL-00010" summary="last">
+      <created>1649750390177</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649750390177</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +170,8 @@
     <MESSAGE value="зшыВф" />
     <MESSAGE value="присоединяйтесь добавил" />
     <MESSAGE value="добавил" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил" />
+    <MESSAGE value="all" />
+    <MESSAGE value="last" />
+    <option name="LAST_COMMIT_MESSAGE" value="last" />
   </component>
 </project>
