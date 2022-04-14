@@ -3,7 +3,7 @@
 }
 
 .container {
-    width: 1431px;
+    max-width: 1431px;
     text-align: center;
     margin: 0 auto;
 }
@@ -12,8 +12,9 @@ body {
     margin: 0;
     background-image: url(Images/BackGroundImage.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
     background-position: center;
-    width: 100%;
+    max-width: 100%;
     font-family: 'Ubuntu', sans-serif;
     background-size: auto;
     box-sizing: border-box;
@@ -112,8 +113,8 @@ h2 {
 
 .block {
     display: flex;
-    min-width: 1431px;
-    min-height: 555px;
+    max-width: 1431px;
+    height: 555px;
     border-radius: 50px;
     margin-bottom: 93px;
 }
@@ -132,17 +133,26 @@ a {
     text-align: center;
     color: white;
     margin-top: auto;
+    width: auto;
+    max-height: 220px;
     
 }
 
+/*
+.YPRAC-AIM {
+    max-width: 1431px;
+    max-height: 648px;
+}
+*/
+
 .YPRAC-AIM .block {
-    background-image:url(Images/YPRAC-AIM.jpg);
+    background-image:url(Images/YPRAC-AIM.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .AIM-BOTZ .block {
-    background-image:url(Images/aim-botz.jpg);
+    background-image:url(Images/aim-botz.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -154,7 +164,7 @@ a {
 }
 
 .GUIDE .block {
-    background-image: url(Images/guide.jpg);
+    background-image: url(Images/guide.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -192,4 +202,100 @@ line-height: 38px;
 
 
 color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 1430px)
+{
+    .block p {
+        align-items: flex-end;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 55px;
+        text-align: center;
+        color: white;
+        margin-top: 170px;
+        width: auto;
+        max-height: 220px;
+    
+    }
+    
+    .block {
+        display: flex;
+        max-width: 1431px;
+        max-height: 555px;
+        border-radius: 50px;
+        margin-bottom: 93px;
+    }
+    
+}
+
+@media (max-width: 1430px) {
+    .digitalwind {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .nav {
+        display: none;
+    }
+    
+    .menu {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .block {
+        max-height: 410px;
+    }
+    
+/*
+    .YPRAC-AIM {
+        max-height: 410px;
+    }
+*/
+}
+
+@media (max-width: 880px) {
+        .block p {
+        align-items: flex-end;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 55px;
+        text-align: center;
+        color: white;
+        margin-top: 170px;
+        width: auto;
+        height: auto;
+    
+    }
+    
+    .block {
+     height: auto;
+    }
+    
+}
+
+@media (max-width: 880px) {
+    .block p {
+        align-items: flex-end;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: white;
+        margin-top: 170px;
+        width: auto;
+        height: auto;
+    
+    }
 }
