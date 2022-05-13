@@ -1,0 +1,340 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	overflow-x: hidden; 
+}
+
+.container {
+	max-width: 1156px;
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	background: url(images/Background.jpg);
+	height: 793px;
+	width: 100%;
+	display: flex;
+	background-repeat: no-repeat;
+}
+.header_top {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.header_logo {
+	margin-top: 32px;
+
+}
+
+.topnav a {
+	margin-top: 42px;
+	float: left;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 90px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+.topnav a:hover {
+    opacity: 1;
+}
+
+.login {
+	margin-top: 42px;
+}
+
+.login a{
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-left: 44px;
+	width: 143px;
+	height: 40px;
+	border: none;
+    padding: 8px 44px;
+    text-align: center;
+}
+
+#home {
+	opacity: 1;
+}
+
+.login a:hover{
+	background-color: yellow;
+	border-radius: 50px;
+  	color: #250F8A;
+	border-color: yellow;
+}
+
+.header_content {
+	display: flex;
+	justify-content: center;
+	margin-top: 169px;
+	color: white;
+}
+
+.ocko {
+	font-weight: 700;
+	font-size: 45px;
+}
+
+.header_content .small_info{
+	width: 50%;
+}
+
+.header_content .icon img{
+	width: 100%;
+}
+
+.ocko1 {
+	font-weight: 400;
+	font-size: 24px;
+	margin-bottom: 120px;
+}
+
+#login {
+	background-color: white;
+	border-radius: 50px;
+  	text-decoration: none;
+  	color: #250F8A;
+	border-color: white;
+}
+
+#login:hover {
+	background-color: yellow;
+	border-radius: 50px;
+  	text-decoration: none;
+  	color: #250F8A;
+	border-color: yellow;
+}
+
+.header_content a {
+	color: #250F8A;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border: none;
+    padding: 15px 44px;
+    text-align: center;
+   	background-color: #FFCA00;
+	border-radius: 24px;
+}
+
+.features {
+	margin-top: 60px;
+	height: 600px;
+}
+.features h3 {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 700;
+	color: #202020;
+	margin-bottom: 96px;
+}
+.features_content {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.features_content p{
+	color: #272727;
+};
+
+.features_content img {
+	margin-bottom: 60px;
+}
+
+.how_we_work {
+	background-color: #f4f9fd;
+}
+
+.how_we_work .first {
+	display: flex;
+	justify-content: center;
+	
+
+}
+
+.how_we_work .first .text{
+	background-image: url(images/oblako1.svg);
+	background-repeat: no-repeat;	
+}
+.how_we_work .second .text{
+	background-image: url(images/oblako2.svg);
+	background-repeat: no-repeat;	
+}
+.how_we_work .third .text{
+	background-image: url(images/oblako3.svg);
+	background-repeat: no-repeat;	
+}
+
+.features .qwe img{
+	position: absolute;
+	width: 511.97px;
+	height: 425px;
+	left: -175px;
+	top: 857px;
+}
+.how_we_work .qwe img{
+	position: absolute;
+	width: 452.13px;
+	height: 387.25px;
+	left: 1575px;
+	top: 2000px;
+}
+.how_we_work .second {
+	display: flex;
+	justify-content: center;
+}
+.how_we_work .third {
+	display: flex;
+	justify-content: center;
+}
+
+.how_we_work .text {
+	margin-top: 68px;
+	color: #272727;
+
+}
+
+.how_we_work .text h3 {
+	margin-top: 68px;
+	margin-bottom: 15px;
+	font-size: 35px;
+	font-weight: 700;
+	color: #202020;
+}
+
+.poop {
+	background: url(images/bg.jpg);
+	height: 519px;
+	width: 100%;
+}
+
+.poop h3 {
+	padding-top: 40px;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.poop .content {
+	display: flex;
+	justify-content: center;
+}
+
+.quadro {
+	margin-top: 48px;
+	width: 300px;
+	height: 261px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	margin-right: 20px;
+	color: white;
+}
+
+#dva {
+	margin-right: 0px;
+}
+
+.quadro .people {
+	opacity: 1;
+	display: flex;
+	justify-content: center;
+	margin-top: 38px;
+	font-size: 15px;
+}
+
+.quadro .people .info {
+	margin-left: 20px;
+}
+
+.quadro .people .info p {
+	font-weight: 400;
+	opacity: 0.5;
+}
+
+.quadro .people .info h4 {
+	font-weight: 600;
+}
+
+.quadro h5 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-top: 15px;
+	text-align: center;
+	margin-bottom: 0px;
+
+}
+
+.quadro p {
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+footer {
+	height: 61px;
+}
+footer .container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 19px;
+}
+
+footer a {
+	color: #272727;
+	margin-right: 10px;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.how_we_work .content {
+	width: 100%;
+}
+
+.how_we_work .content img{
+	width: 50%;
+}
+
+.how_we_work .content .text{
+	width: 50%;
+}
+
+@media (width: 768px) {
+	.topnav a {
+	    margin-left: 20px;
+	}
+	.login a{
+		margin-left: 20px;
+	}
+
+	.features .qwe img {
+		left: -1000px;
+	}
+
+	.how_we_work .qwe img {
+		left: -1000px;
+	}
+
+	.container {
+		max-width: 768px;
+		width: 768px;
+	}
+}
